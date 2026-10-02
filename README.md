@@ -1,3 +1,7 @@
+## Short description
+
+Fork C# implementace ua-parser, která parsuje User-Agent řetězce na prohlížeč, OS a zařízení. Používá sdílené regexy z uap-core vložené jako submodul. Obsahuje konzolovou ukázku a testy.
+
 ua_parser C# Library
 ======================
 
