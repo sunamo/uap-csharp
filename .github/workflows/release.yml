@@ -86,11 +86,11 @@ jobs:
 
       - name: Restore
         run: |
-          nuget restore UAParser.sln
-          dotnet restore UAParser.sln
+          nuget restore UAParser.slnx
+          dotnet restore UAParser.slnx
 
       - name: Rebuild solution (Release)
-        run: msbuild UAParser.sln /t:Rebuild /p:Configuration=Release /m
+        run: msbuild UAParser.slnx /t:Rebuild /p:Configuration=Release /m
 
       - name: Run unit tests
         run: dotnet test UAParser.Tests/UAParser.Tests.csproj --configuration Release --no-build --verbosity normal
