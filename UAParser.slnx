@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path=".github/workflows/release.yml" />
+  </Folder>
+  <Folder Name="/.nuget/">
+    <File Path=".nuget/NuGet.Config" />
+    <File Path=".nuget/NuGet.exe" />
+    <File Path=".nuget/NuGet.targets" />
+  </Folder>
+  <Folder Name="/Items/">
+    <File Path=".editorconfig" />
+    <File Path="build.bat" />
+    <File Path="build.proj" />
+    <File Path="PublicKey.snk" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="UAParser.ConsoleApp/UAParser.ConsoleApp.csproj" />
+  <Project Path="UAParser.Tests/UAParser.Tests.csproj" />
+  <Project Path="UAParser/UAParser.csproj" />
+</Solution>
